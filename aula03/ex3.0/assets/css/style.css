@@ -1,0 +1,54 @@
+h1,
+p {
+  color: red;
+}
+
+p {
+  text-decoration: underline;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.paragrafoOneMenor {
+  font-size: 16px;
+}
+
+#paragrafoOneUnico {
+  border-width: 2px;
+  border-color: green;
+  border-style: solid;
+  font-size: 100px;
+}
+
+p>.colorGreen {
+  color: green !important;
+}
+
+.colorGreen {
+  color: blue !important;
+}
+
+.colorYellow {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.menu>li>a {
+  color: orange;
+  font-size: 20px;
+}
+
+.menu>li>a:hover {
+  color: green;
+}
+
+.menu>li>a:active {
+  color: blue;
+}
+
+.menu>li>a:visited {
+  color: brown;
+}

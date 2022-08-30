@@ -1,0 +1,47 @@
+* {
+    font-family: sans-serif;
+}
+
+p {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+h3 {
+    font-weight: normal;
+    font-family: serif;
+}
+
+table {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+table,
+td {
+    border: 1px solid grey;
+}
+
+.blue {
+    color: blue;
+}
+
+
+.green {
+    color: green;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bgPink {
+    background-color: pink;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+.bgRed {
+    background-color: red;
+}

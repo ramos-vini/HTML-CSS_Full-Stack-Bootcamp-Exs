@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Box model</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+    body {
+      margin: 0;
+    }
+
+    .inline-block {
+      display: inline-block;
+      background-color: blue;
+      color: #fff;
+    }
+
+    .block {
+      display: block;
+      background-color: red;
+      color: #fff;
+    }
+
+    .none {
+      display: none;
+      background-color: green;
+      color: #fff;
+    }
+
+    /*     div {
+      height: 100vh;
+      width: 100vw;
+    } */
+    div {
+      width: calc(30vw - 20px);
+      height: calc(30vh - 20px);
+      background-color: blue;
+      border: 10px solid red;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      margin-bottom: 0;
+      /*       margin: 10px auto auto; */
+      /*       Top e Bottom Right e Left */
+      /*       margin: 0 auto; */
+
+      /*       Top Right Bottom Left */
+      /*       margin: 0 auto 0 auto; */
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <div></div>
+  <!--   <div class="inline-block">Elemento inline-block</div>
+  <div class="block">Elemento block</div> -->
+  <!--   <div class="none">Elemento none</div> -->
+</body>
+
+</html>

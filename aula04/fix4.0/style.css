@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+.azul {
+    color: blue;
+}
+
+.titulo,
+.subtitulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 1.2em;
+}
+
+.subtitulo {
+    background-color: aqua;
+}
+
+table {
+    border: double grey;
+}

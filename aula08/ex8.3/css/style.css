@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Estilização Padrão */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.0em;
+    margin-bottom: 2%;
+}
+
+.subtitle {
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+header {
+    background-color: black;
+}
+
+header>nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+header>nav>span {
+    padding: 2% 0;
+    position: relative;
+}
+
+header>nav>span::after {
+    content: "";
+    height: 5%;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #FFBC0D;
+    transition: 0.3s ease-in;
+}
+
+header>nav>span:hover::after {
+    width: 100%;
+    transition: 0.3s ease-out;
+}
+
+header>nav>span>a {
+    color: white;
+}
+
+main>div {
+    padding: 3% 15%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2% 15%;
+}
+
+footer section {
+    margin-top: 2%;
+}
+
+footer a {
+    margin-right: 2%;
+    color: white;
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    color: #FFBC0D;
+}
+
+/* Media Query: Tablet */
+
+@media screen and (max-width: 768px) {
+
+    /* Estilização Padrão */
+
+    header>nav {
+        padding: 0 5%;
+    }
+
+    main>div {
+        padding: 3% 5%;
+    }
+
+    h1 {
+        font-size: 2.0em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    footer {
+        padding: 2% 5%;
+    }
+
+}
+
+/* Media Query: Mobile */
+
+@media screen and (max-width: 480px) {
+
+    /* Estilização Padrão */
+
+    main {
+        text-align: center;
+    }
+
+    header>nav a {
+        font-size: 0.7em;
+    }
+
+    .mainDiv1 {
+        flex-direction: column;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 0.7em;
+    }
+
+    footer a {
+        font-size: 0.8em;
+    }
+}

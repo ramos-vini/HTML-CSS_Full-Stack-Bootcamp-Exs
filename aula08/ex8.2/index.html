@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <h2>Editar Perfil</h2>
+        </div>
+
+        <div>
+            <section class="input2">
+                <label for="">E-mail</label>
+                <input type="text">
+            </section>
+
+            <section class="input2">
+                <label for="">Nome de Usuário</label>
+                <input type="text">
+            </section>
+        </div>
+
+        <div>
+            <section class="input2">
+                <label for="inSenha">Senha</label>
+                <input type="password" id="inSenha">
+            </section>
+
+            <section class="input2">
+                <label for="inConfirmarSenha">Confirmar Senha</label>
+                <input type="password" id="inConfirmarSenha">
+            </section>
+        </div>
+
+        <div>
+            <section>
+                <label for="">Sexo</label>
+
+                <span>
+                    <input type="radio" name="rdSexo" id="rdSexoMasculino">
+                    <label for="rdSexoMasculino" class="font-normal">Masculino</label>
+                </span>
+
+                <span>
+                    <input type="radio" name="rdSexo" id="rdSexoFeminino">
+                    <label for="rdSexoFeminino" class="font-normal">Feminino</label>
+                </span>
+            </section>
+        </div>
+
+        <div>
+            <section>
+                <label for="inBiografia">Biografia</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+        </div>
+
+        <div>
+            <section>
+                <label for="">Redes Sociais</label>
+
+                <span class="displayFlex">
+                    <span class="input2">
+                        <label for="inFacebook"><i class="fa-brands fa-square-facebook"></i></label>
+                        <input type="text" placeholder="Perfil do Facebook" id="inFacebook">
+                    </span>
+
+                    <span class="input2">
+                        <label for="inInstagram"><i class="fa-brands fa-square-instagram"></i></label>
+                        <input type="text" placeholder="Perfil do Instagram" id="inInstagram">
+                    </span>
+                </span>
+
+                <span class="displayFlex">
+                    <span class="input2">
+                    <label for="inGithub"><i class="fa-brands fa-square-github"></i></label>
+                    <input type="text" placeholder="Perfil do GitHub" id="inGithub">
+                    </span>
+
+                    <span class="input2">
+                    <label for="inLinkedin"><i class="fa-brands fa-linkedin"></i></label>
+                    <input type="text" placeholder="Perfil do LinkedIn" id="inLinkedin">
+                    </span>
+                </span>
+            </section>
+        </div>
+
+        <div>
+            <input type="submit" value="Atualizar">
+        </div>
+    </form>
+</body>
+
+</html>

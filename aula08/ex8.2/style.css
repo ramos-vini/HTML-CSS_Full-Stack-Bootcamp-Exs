@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #CFD6DF;
+}
+
+form {
+    background-color: white;
+    width: 60%;
+    margin: 3% auto;
+    padding: 3%;
+}
+
+form h2{
+    color: #FF3D18;
+    font-size: 2.0em;
+    margin-bottom: 3%;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+form section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form span {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.input2{
+    width: 47%;
+}
+
+.displayFlex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 1%;
+    margin-right: 1%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.font-normal{
+    font-weight: normal;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 3%;
+    outline: none;
+    resize: none;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+form input[type="radio"] {
+    width: auto;
+    margin-right: 1%;
+}
+
+form input[type="submit"] {
+    width: 25%;
+    background-color: #FF3D18;
+    font-weight: bold;
+    font-size: 1.0em;
+    color: white;
+    border: none;
+    padding: 2% 3%;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #b32e13;
+}
+
+.fa-brands{
+    font-size: 2.2em;
+    color: #FF3D18;
+}
+
+.fa-brands:hover{
+    cursor: pointer;
+    opacity: 95%;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background-color: #EEEBDD;
+    color: #1B1717;
+}
+
+.bgVermelho {
+    background-color: #810000;
+    color: #EEEBDD;
+}
+
+h2 {
+    color: #810000;
+}
+
+a {
+    color: #EEEBDD;
+}
+
+a:visited,
+a:hover {
+    color: #CE1212;
+}
+
+#aLogo {
+    font-size: xx-large;
+    font-family: fantasy;
+    background-color: #1B1717;
+}
+
+#aTarantino {
+    color: #810000;
+}

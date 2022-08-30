@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    .flex {
+      border: 1px solid #ccc;
+      padding: 5px;
+      display: flex;
+    }
+
+    .item1 {
+      flex: 1;
+    }
+
+    .item2 {
+      flex: 2;
+    }
+
+    .item3 {
+      flex: 3;
+    }
+
+    .flex-item {
+      margin: 5px;
+      background: tomato;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .grow0 {
+      flex-grow: 0;
+    }
+
+    .grow1 {
+      flex-grow: 1;
+    }
+
+    header {
+      background: tomato;
+      display: flex;
+    }
+
+    .logo {
+      flex-grow: 0;
+    }
+
+    nav {
+      flex-grow: 0;
+    }
+
+    header>nav {
+      float: right;
+    }
+
+    header>nav>ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+
+    header>nav>ul>li {
+      float: left;
+      position: relative;
+    }
+
+    header>nav>ul>li>a,
+    header>nav>ul>li>a:visited {
+      padding: 20px 30px;
+      float: left;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      color: #fff;
+      border-top: 3px solid transparent;
+    }
+
+    header>nav>ul>li>a:hover,
+    header>nav>ul>li>a:active {
+      border-top-color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <!--   <div class="flex">
+    <div class="flex-item item1">1</div>
+    <div class="flex-item item3">2</div>
+    <div class="flex-item item1">3</div>
+  </div> -->
+
+  <!--   <div class="flex">
+    <div class="flex-item grow0">1</div>
+    <div class="flex-item grow0">2</div>
+    <div class="flex-item grow0">3</div>
+  </div>
+  <div class="flex">
+    <div class="flex-item grow0">Lorem</div>
+    <div class="flex-item grow1">2</div>
+    <div class="flex-item grow0">3</div>
+    <div class="flex-item grow0">3</div>
+    <div class="flex-item grow0">3</div>
+  </div> -->
+  <header>
+    <div class="logo">
+      <img src="./assets/img/logo.png" alt="" width="100">
+    </div>
+    <div class="grow1"></div>
+    <nav>
+      <ul>
+        <li><a href="">Item 1</a></li>
+        <li><a href="">Item 2</a></li>
+        <li><a href="">Item 3</a></li>
+        <li><a href="">Item 4</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+
+</html>

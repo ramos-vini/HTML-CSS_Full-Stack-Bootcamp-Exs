@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.3);
+}
+
+
+header>nav>div:first-of-type {
+    width: 20%;
+    padding-left: 10%;
+}
+
+header nav img {
+    width: 80%;
+}
+
+.logo:hover {
+    animation: rubberBand 1s;
+}
+
+header>nav>div:nth-of-type(2) {
+    display: flex;
+    justify-content: end;
+    padding-right: 10%;
+    width: 80%;
+}
+
+header>nav>div:nth-of-type(2)>a {
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+header>nav>div:nth-of-type(2)>a:hover {
+    color: #FFBC0D;
+    font-weight: bold;
+}
+
+main {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.mainDiv1 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.mainDiv1 img {
+    width: 100%;
+}
+
+.mainDiv2 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDiv2 span {
+    width: 30%;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainDiv2 span img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.mainDiv2 span h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mainDiv2 span p {
+    margin: 0 10% 10% 10%;
+}
+
+input[type="button"] {
+    background-color: #FFBC0D;
+    border: none;
+    border-radius: 6px;
+    padding: 4% 8%;
+    font-size: 1.0em;
+    margin-bottom: 10%;
+}
+
+input[type="button"]:hover {
+    background-color: #cc9509;
+    cursor: pointer;
+}
+
+.mainDiv3>section {
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 6px;
+    margin: 5% 0;
+}
+
+.mainDiv3>section>span {
+    width: 50%;
+}
+
+.mainDiv3>section>span:first-of-type {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainDiv3>section>span:first-of-type p {
+    margin: 5% 0;
+}
+
+.mainDiv3>section>span:last-of-type img {
+    border-radius: 0 6px 6px 0;
+    width: 100%;
+}
+
+.mainDiv4 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDiv4 span {
+    width: 45%;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainDiv4 span img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.mainDiv4 span h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mainDiv4 span p {
+    margin: 0 10% 10% 10%;
+}
+
+.mainDiv5>section {
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 6px;
+    margin: 5% 0;
+}
+
+.mainDiv5>section span {
+    width: 50%;
+}
+
+.mainDiv5>section>span:last-of-type {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainDiv5>section>span:last-of-type p {
+    margin: 5% 0;
+}
+
+.mainDiv5>section>span:first-of-type img {
+    width: 100%;
+    border-radius: 6px 0 0 6px;
+}
+
+.btAnimation {
+    font-weight: bold;
+}
+
+.btAnimation:hover {
+    animation: changeColorRed 2s;
+}
+
+@keyframes changeColorRed {
+    25% {
+        background-color: red;
+        color: #FFBC0D;
+        transform: scale(1.1);
+    }
+
+    50% {
+        background-color: white;
+        color: black;
+        transform: scale(1.0);
+    }
+
+    75% {
+        background-color: red;
+        color: #FFBC0D;
+        transform: scale(1.1);
+    }
+}
+
+footer>div:first-of-type {
+    background-color: #FFBC0D;
+    padding: 1% 10%;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    margin: 2% 0;
+}
+
+footer input[type="button"] {
+    background-color: white;
+    padding: 20% 30%;
+}
+
+footer input[type="button"]:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+footer>div:first-of-type>span:first-of-type {
+    width: 15%;
+}
+
+footer>div:first-of-type>span:first-of-type img {
+    width: 70%;
+}
+
+footer>div:first-of-type>span:nth-of-type(2) {
+    width: 60%;
+}
+
+footer>nav,
+footer>div:last-of-type {
+    padding: 0 10%;
+    margin-top: 3%;
+}
+
+footer>nav>a {
+    margin-right: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+footer>nav>a:hover {
+    color: #FFBC0D;
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: fonte-formal;
+  src: url(../fontes/fonte-formal.otf);
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #E8F9FD;
+  border: 1px solid #2155CD;
+  color: #2155CD;
+}
+
+.mainDiv1 {
+  background-color: #2155CD;
+  color: #E8F9FD;
+  padding-top: 4%;
+  padding-left: 2%;
+}
+
+.mainDiv1Span {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+h1 {
+  font-size: 3.0em;
+}
+
+h1,
+h2 {
+  font-family: fonte-formal;
+  font-weight: 500;
+}
+
+h2 {
+  background-color: #2155CD;
+  color: #E8F9FD;
+}
+
+h2,
+p {
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2155CD;
+}
+
+a:hover {
+  color: #0AA1DD;
+}
+
+.linksNav {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+td,
+table {
+  border: 1px solid #0AA1DD;
+}
+
+td {
+  padding: 20px;
+}
+
+.space {
+  padding: 2%;
+}

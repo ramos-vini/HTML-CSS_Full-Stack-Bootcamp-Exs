@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  background-color: #E8F9FD;
+  border: 1px solid #2155CD;
+  color: #2155CD;
+}
+
+.maindiv2 {
+  background-color: #2155CD;
+  color: #E8F9FD;
+}
+
+h2 {
+  background-color: #2155CD;
+  color: #E8F9FD;
+}
+
+a:active {
+  color: #79DAE8;
+}
+
+a:visited {
+  color: #0AA1DD;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=MedievalSharp&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #FCDA05;
+}
+
+body {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    height: 80px;
+}
+
+.headerNavDiv1 {
+    float: left;
+    width: 50%;
+}
+
+.headerNavDiv1 a {
+    float: left;
+    margin-left: 10%;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.headerNavDiv2 {
+    float: right;
+    width: 50%;
+    padding-top: 2%;
+}
+
+.headerNavDiv2 a {
+    margin-right: 11%;
+    text-decoration: none;
+}
+
+.mainDiv1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.mainDiv1 section {
+    float: left;
+}
+
+.mainDiv1 img {
+    height: 46vh;
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+.mainDiv {
+    clear: both;
+    margin: 5%;
+    padding-top: 1%;
+}
+
+a:hover,
+h2:hover,
+footer>p:hover {
+    cursor: pointer;
+    text-shadow: #ffe226 0px 0px 2px;
+}
